@@ -13,11 +13,11 @@
 		autoPlay:true //自动播放
 	});
 	if($("#vipfunc").length)
-	TouchSlide({ 
+	TouchSlide({
 		slideCell:"#vipfunc",
 		titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
-		mainCell:".bd ul", 
-		effect:"leftLoop", 
+		mainCell:".bd ul",
+		effect:"leftLoop",
 		delayTime: 800,
 		interTime: 4000,
 		autoPage:true,//自动分页
