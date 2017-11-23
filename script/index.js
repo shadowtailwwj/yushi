@@ -130,6 +130,11 @@
 		var x = $(this).index();
 		$(".baotqinr").eq(x).show().siblings(".baotqinr").hide();
 	});
+
+    $("a[href='#dibu']").click(function(){
+        var x = $(this).index();
+        $(".tancuce").eq(x).show().siblings(".tancuce").hide();
+    });
 	
 	$(".tanhist li a").click(function(){
 		var tan = $(this).attr("href");
