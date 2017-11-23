@@ -12,17 +12,17 @@
 		autoPage:true,//自动分页
 		autoPlay:true //自动播放
 	});
-	if($("#vipfunc").length)
-	TouchSlide({
-		slideCell:"#vipfunc",
-		titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
-		mainCell:".bd ul",
-		effect:"leftLoop",
-		delayTime: 800,
-		interTime: 4000,
-		autoPage:true,//自动分页
-		autoPlay:true //自动播放
-	});
+	//if($("#vipfunc").length)
+	//TouchSlide({
+	//	slideCell:"#vipfunc",
+	//	titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+	//	mainCell:".bd ul",
+	//	effect:"leftLoop",
+	//	delayTime: 800,
+	//	interTime: 4000,
+	//	autoPage:true,//自动分页
+	//	autoPlay:true //自动播放
+	//});
 	
 	$(".banner").huxiFn({})
 	function animteehFn(){
@@ -99,8 +99,9 @@
 	
 	$(".conwqie li").hover(function(){
 		$(this).addClass("cur").siblings().removeClass();
-		var x = $(this).index();
-		$(".conqitem").eq(x).slideDown(200).siblings(".conqitem").slideUp(200);
+		var x = $(".conwqie li").index($(this))
+	
+		$(".conqitem").eq(x).stop().slideDown(200).siblings(".conqitem").stop().slideUp(200);
 	},function(){
 		
 	});
