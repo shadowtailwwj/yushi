@@ -424,25 +424,25 @@ to{-o-transform:rotate(-360deg)}
 .qi1icon2{background: url(../images/am2.png) no-repeat center top;}
 .qi1icon3{background: url(../images/am3.png) no-repeat center top;}
 .qi1icon4{background: url(../images/am4.png) no-repeat center top;}
-.qi1icon5{background: url(../images/am5.png) no-repeat center top;}
+.qi1icon5{background: url(../images/am6.png) no-repeat center top;}
 .qi1icon6{background: url(../images/am5.png) no-repeat center top;}
-.qi1icon7{background: url(../images/am2.png) no-repeat center top;}
+.qi1icon7{background: url(../images/am7.png) no-repeat center top;}
 
 .conwqie li:hover .qi1icon1{background: url(../images/am1cur.png) no-repeat center top;}
 .conwqie li:hover .qi1icon2{background: url(../images/am2cur.png) no-repeat center top;}
 .conwqie li:hover .qi1icon3{background: url(../images/am3cur.png) no-repeat center top;}
 .conwqie li:hover .qi1icon4{background: url(../images/am4cur.png) no-repeat center top;}
-.conwqie li:hover .qi1icon5{background: url(../images/am5cur.png) no-repeat center top;}
+.conwqie li:hover .qi1icon5{background: url(../images/am6cur.png) no-repeat center top;}
 .conwqie li:hover .qi1icon6{background: url(../images/am5cur.png) no-repeat center top;}
-.conwqie li:hover .qi1icon7{background: url(../images/am2cur.png) no-repeat center top;}
+.conwqie li:hover .qi1icon7{background: url(../images/am7cur.png) no-repeat center top;}
 
 .conwqie li.cur .qi1icon1{background: url(../images/am1cur.png) no-repeat center top;}
 .conwqie li.cur .qi1icon2{background: url(../images/am2cur.png) no-repeat center top;}
 .conwqie li.cur .qi1icon3{background: url(../images/am3cur.png) no-repeat center top;}
 .conwqie li.cur .qi1icon4{background: url(../images/am4cur.png) no-repeat center top;}
-.conwqie li.cur .qi1icon5{background: url(../images/am5cur.png) no-repeat center top;}
+.conwqie li.cur .qi1icon5{background: url(../images/am6cur.png) no-repeat center top;}
 .conwqie li.cur .qi1icon6{background: url(../images/am5cur.png) no-repeat center top;}
-.conwqie li.cur .qi1icon7{background: url(../images/am2cur.png) no-repeat center top;}
+.conwqie li.cur .qi1icon7{background: url(../images/am7cur.png) no-repeat center top;}
 
 .am1daz{
 	font-size: 16px;

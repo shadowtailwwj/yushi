@@ -12,17 +12,17 @@
 		autoPage:true,//自动分页
 		autoPlay:true //自动播放
 	});
-	//if($("#vipfunc").length)
-	//TouchSlide({
-	//	slideCell:"#vipfunc",
-	//	titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
-	//	mainCell:".bd ul",
-	//	effect:"leftLoop",
-	//	delayTime: 800,
-	//	interTime: 4000,
-	//	autoPage:true,//自动分页
-	//	autoPlay:true //自动播放
-	//});
+	if($("#vipfunc").length)
+	TouchSlide({
+		slideCell:"#vipfunc",
+		titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+		mainCell:".bd ul",
+		effect:"leftLoop",
+		delayTime: 800,
+		interTime: 4000,
+		autoPage:true,//自动分页
+		autoPlay:false //自动播放
+	});
 	
 	$(".banner").huxiFn({})
 	function animteehFn(){
@@ -135,7 +135,6 @@
         var x = $(this).index();
         $(".tancuce").eq(x).show().siblings(".tancuce").hide();
     });
-	
 	$(".tanhist li a").click(function(){
 		var tan = $(this).attr("href");
 		$(".tancuce").hide();
